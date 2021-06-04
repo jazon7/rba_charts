@@ -182,8 +182,8 @@ pctChangePlotGrowthCredit <- function(df, df2, df3, y, t, xvar = "date", yvar = 
 }
 
 #api username and key for plotly 
-Sys.setenv("plotly_username"="demystifyingmoney")
-Sys.setenv("plotly_api_key"="ytrNWCDfNNPMIBDupYss")
+#Sys.setenv("plotly_username"="XXX")
+#Sys.setenv("plotly_api_key"="XXX")
 
 #download money aggreagate excel files from RBA website and save them in project directory as .xls files. 
 download.file("https://www.rba.gov.au/statistics/tables/xls/d01hist.xls",destfile = "./d01hist.xls", mode = "wb")
