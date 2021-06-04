@@ -1,0 +1,20 @@
+These .R files upload ggplot2 figures to plotly Chart Studio
+
+https://plotly.com/
+
+To work, the following must be done:
+
+1. Create a Chart Studio account
+
+2. Store your Chart Studio authentication credentials as environment variables in your R session - by using the Sys.setenv() function:
+
+	Sys.setenv("plotly_username"="your_plotly_username")
+	Sys.setenv("plotly_api_key"="your_api_key")
+	
+	Or save these commands in your .Rprofile file if you want them to be run every time you start a new R session.
+	
+https://plotly.com/r/getting-started-with-chart-studio/
+
+
+
+
