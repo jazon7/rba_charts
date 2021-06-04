@@ -36,8 +36,8 @@ createTibbleGrowth <- function(xlsFile,xlsSheet,numRowsSkip,numRowsSkipHeader){
 }
 
 #api username and key for plotly 
-Sys.setenv("plotly_username"="demystifyingmoney")
-Sys.setenv("plotly_api_key"="ytrNWCDfNNPMIBDupYss")
+#Sys.setenv("plotly_username"="XXX")
+#Sys.setenv("plotly_api_key"="XXX")
 
 #download money aggreagate excel files from RBA website and save them in project directory as .xls files. 
 download.file("https://rba.gov.au/statistics/tables/xls/a01whist-summary.xls",destfile = "./a01whist-summary.xls", mode = "wb")
